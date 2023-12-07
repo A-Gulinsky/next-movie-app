@@ -13,7 +13,7 @@ export const metadata = {
     url: 'https://next-movie-app-seven.vercel.app/',
     images: [
       {
-        url: 'https://img.freepik.com/free-photo/fresh-natural-green-schefflera-arboricola-background_53876-153311.jpg?w=996&t=st=1701474143~exp=1701474743~hmac=50682caf3fdfd630dff9ea401437b10bd57f30234e16b1f53a14a718a5ea0498',
+        url: 'https://img.freepik.com/free-vector/seamless-pattern-with-cinema-elements_225004-1154.jpg?w=740&t=st=1701983783~exp=1701984383~hmac=49a028fb0d46b67d478ff6ce701b5d697fb055eee78ada4654d7346e4694547d',
         width: 1000,
         height: 1000,
         alt: 'Home Page'
