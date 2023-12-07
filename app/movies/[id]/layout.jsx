@@ -4,8 +4,24 @@ import { Links } from "@/components/movies/movieItem/links/Links";
 export async function generateMetadata({ params: { id } }) {
   const movie = await getData(id)
   return {
+    metadataBase: new URL(`https://next-movie-app-seven.vercel.app/movies/${movie.id}`),
     title: movie.title,
-    description: `Description | Movie id ${movie.id}`
+    description: movie.overview,
+    openGraph: {
+    title: `${movie.title}, ${movie.release_date && movie.release_date}`,
+    description: movie.overview,
+    siteName: 'Movies Service',
+    type: 'article',
+    url: `https://next-movie-app-seven.vercel.app/movies/${movie.id}`,
+    images: [
+      {
+        url: `${`https://image.tmdb.org/t/p/w300`}${movie.poster_path}`,
+        width: 1000,
+        height: 1000,
+        alt: 'Movies Page'
+      }
+    ]
+  }
   }
 }
 

@@ -4,7 +4,6 @@ import { BackBtn } from "./backBtn/BackBtn"
 import { Genres } from "./genres/Genres"
 
 const MovieDescription = ({ result }) => {
-
   const { poster_path, title, release_date, vote_average, overview } = result
   const img = `${`https://image.tmdb.org/t/p/w300`}${poster_path}`
   const date = release_date && release_date.slice(0,4)
