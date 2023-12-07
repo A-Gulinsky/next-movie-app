@@ -16,8 +16,8 @@ export async function generateMetadata({ params: { id } }) {
     images: [
       {
         url: `${`https://image.tmdb.org/t/p/w300`}${movie.poster_path}`,
-        width: 1000,
-        height: 1000,
+        width: 400,
+        height: 550,
         alt: 'Movies Page'
       }
     ]

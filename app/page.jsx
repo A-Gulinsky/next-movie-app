@@ -14,8 +14,8 @@ export const metadata = {
     images: [
       {
         url: 'https://img.freepik.com/free-vector/seamless-pattern-with-cinema-elements_225004-1154.jpg?w=740&t=st=1701983783~exp=1701984383~hmac=49a028fb0d46b67d478ff6ce701b5d697fb055eee78ada4654d7346e4694547d',
-        width: 1000,
-        height: 1000,
+        width: 500,
+        height: 500,
         alt: 'Home Page'
       }
     ]
