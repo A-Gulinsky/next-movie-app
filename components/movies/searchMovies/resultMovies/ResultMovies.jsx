@@ -1,13 +1,14 @@
-import { LinkStyled, Ul } from "./ResultMovies.styled"
+import { Ul } from "./ResultMovies.styled"
+import { ResultLink } from "./resultLink/ResultLink"
 
-const ResultMovies = ({ movies }) => {
+const ResultMovies = ({ movies, query }) => {
   
   return (
     
     <Ul>
       {movies.map(movie => (
         <li key={movie.id}>
-          <LinkStyled href={`/movies/${movie.id}`}>{movie.title}</LinkStyled>
+          <ResultLink movie={movie} query={query} />
         </li>
       ))}  
     </Ul>

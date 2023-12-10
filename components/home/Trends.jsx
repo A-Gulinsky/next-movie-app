@@ -1,4 +1,5 @@
-import { Ul, LinkStyled } from "./Trends.styled"
+import { Ul } from "./Trends.styled"
+import { TrendLink } from "./Link/TrendLink";
 
 // API
 const baseURL = 'https://api.themoviedb.org/3';
@@ -28,7 +29,7 @@ async function Trends() {
    <Ul>
      {movies.results.map(result => (
         <li key={result.id}>
-          <LinkStyled href={`/movies/${result.id}`}>{result.title}</LinkStyled>
+         <TrendLink result={result} />
         </li>
       ))}
     </Ul>

@@ -1,5 +1,6 @@
 import { Header } from '@/components/header/Header'
 import './globals.css'
+import StoreProvider from './StoreProvider'
 
 export default function RootLayout({ children }) {
   return (
@@ -7,7 +8,9 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <main className='container'>
-          {children}
+          <StoreProvider>
+            {children}
+          </StoreProvider>
         </main>
       </body>
     </html>

@@ -14,7 +14,7 @@ const SearchMovies = () => {
 
   const searchParams = useSearchParams()
   const query = searchParams.get('query')
-  
+
   useEffect(() => {
 
     if (!query) {
@@ -40,7 +40,7 @@ const SearchMovies = () => {
   return (
     <Container>
       <InputSearch />
-      {isLoading ? <h3>LOADING.....</h3> : <ResultMovies movies={movies} />}
+      {isLoading ? <h3>LOADING.....</h3> : <ResultMovies movies={movies} query={query} />}
     </Container>
   )
 }
