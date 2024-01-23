@@ -3,19 +3,19 @@ import { Suspense } from 'react';
 
 export const metadata = {
   metadataBase: new URL(`https://next-movie-app-seven.vercel.app/`),
-  title: 'Home',
-  description: 'Description | Home Page',
+  title: 'StunDeals - Your Source for Hot Deals, Sale Items, Coupons and Savings.',
+  description: 'Discover incredible deals and exclusive offers from top retailers at StunDeals. Explore savings across categories for remarkable prices!',
   openGraph: {
-    title: 'Home',
-    description: 'Welcome to Movie Service',
+    title: 'StunDeals - Your Source for Hot Deals, Sale Items, Coupons and Savings.',
+    description: 'Discover incredible deals and exclusive offers from top retailers at StunDeals. Explore savings across categories for remarkable prices!',
     siteName: 'Movies Service',
     type: 'article',
     url: 'https://next-movie-app-seven.vercel.app/',
     images: [
       {
-        url: 'https://img.freepik.com/free-vector/seamless-pattern-with-cinema-elements_225004-1154.jpg?w=740&t=st=1701983783~exp=1701984383~hmac=49a028fb0d46b67d478ff6ce701b5d697fb055eee78ada4654d7346e4694547d',
-        width: 500,
-        height: 500,
+        url: '/stundeals.png',
+        width: 600,
+        height: 600,
         alt: 'Home Page'
       }
     ]
