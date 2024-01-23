@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'StunDeals - Your Source for Hot Deals, Sale Items, Coupons and Savings.',
     description: 'Discover incredible deals and exclusive offers from top retailers at StunDeals. Explore savings across categories for remarkable prices!',
-    siteName: 'Movies Service',
+    siteName: 'StunDeals',
     type: 'article',
     url: 'https://next-movie-app-seven.vercel.app/',
     images: [
