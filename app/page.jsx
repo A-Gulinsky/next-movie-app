@@ -14,8 +14,8 @@ export const metadata = {
     images: [
       {
         url: '/stundeals.png',
-        width: 600,
-        height: 600,
+        width: 300,
+        height: 300,
         alt: 'Home Page'
       }
     ]
